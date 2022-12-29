@@ -1,3 +1,5 @@
 # Kokoa Clone 2023 with nicco
 
-CSS got so much better!
+<!-- CSS got so much better! -->
+
+HTML & CSS are so much fun!
