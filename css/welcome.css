@@ -1,0 +1,17 @@
+body {
+  background-color: #fae100;
+}
+
+.welcome-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-body-main__icon {
+  display: flex;
+  width: 180px;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,113 @@
+.find-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 45px;
+  align-items: center;
+}
+
+.find-icon-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 35px 35px;
+  font-size: 20px;
+}
+
+.find__icon {
+  font-size: 25px;
+}
+.find-mid__text {
+  opacity: 0.5;
+  font-size: large;
+  margin: 25px;
+}
+
+.find-mid-main__text {
+  /* width: 535px;
+  height: 270px; */
+  opacity: 0.5;
+  padding: 80px;
+  font-size: x-large;
+}
+
+.find-openchat {
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.find-openchat__text {
+  opacity: 0.6;
+}
+.find-openchat__text__sub {
+  opacity: 0.3;
+}
+.find-openchat-list {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.find-openchat-list-img__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.find-openchat-list-text__img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.find-openchat-list-text__img:hover {
+  cursor: pointer;
+}
+
+.find-openchat-list-text {
+  margin: 25px;
+}
+
+.find-openchat-list-text__text:last-child {
+  display: flex;
+  align-items: center;
+}
+.find-openchat-list-text__text:nth-child(2),
+.find-openchat-list-text__text:last-child
+  p:not(.find-openchat-list-text__text:last-child span) {
+  opacity: 0.5;
+}
+.find-openchat-list-text__text {
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.find-openchat-list-text__text:last-child span {
+  color: orangered;
+  font-weight: bold;
+}
+
+.find-openchat-list-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-openchat-buffett__inside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 22px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  position: absolute;
+  color: white;
+}
+.find-openchat-buffett__inside span {
+  margin-left: 5px;
+}
+
+.find-openchat-buffett__inside i {
+  color: red;
+  font-size: 15px;
+}

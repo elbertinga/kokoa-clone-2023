@@ -1,0 +1,14 @@
+.friends-title__header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-title__header__text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.friends-title__header__icon {
+  margin-left: 40px;
+}

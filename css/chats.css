@@ -1,0 +1,41 @@
+.chats-profile {
+  display: flex;
+  /* align-items: center; */
+}
+.chats-profile__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+.chats-message {
+  margin-top: 20px;
+  width: 600px;
+}
+
+.chats-message-sub {
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.chats-message-sub__num {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  position: absolute;
+}
+.chats__opacity {
+  opacity: 0.5;
+}
+
+.chats__sub {
+  margin-top: 10px;
+}
+
+.chats-profile-list li {
+  margin-bottom: 20px;
+}

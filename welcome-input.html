@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Welcome to kokoa-clone2023</title>
+  </head>
+  <body>
+    <header class="welcome-input-header">
+      <div
+        class="welcome-input-header__column welcome-input-header__column__first"
+      >
+        <p class="welcome-input-header__left__text">
+          No Service
+          <span>
+            <i class="fa-solid fa-wifi"></i>
+          </span>
+        </p>
+      </div>
+      <div
+        class="welcome-input-header__column welcome-input-header__column__second"
+      >
+        <p>18:43</p>
+      </div>
+      <div
+        class="welcome-input-header__column welcome-input-header__column__last"
+      >
+        <p>
+          100%
+          <span>
+            <i class="fa-solid fa-battery-full"></i>
+          </span>
+          <span>
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </span>
+        </p>
+      </div>
+    </header>
+    <main class="welcome-input-main">
+      <div class="welcome-input-main__title">
+        <h1>Welcome to Kokoa-clone2023</h1>
+      </div>
+      <div class="welcome-input-main__sub">
+        <h2>
+          If you have a kokoa-clone Account,<br />
+          log in with your email or phone number.
+        </h2>
+      </div>
+    </main>
+    <form action="friend.html" method="get" class="welcome-input-section">
+      <input
+        class="welcome-input-section__input"
+        type="text"
+        name="userID"
+        id="email"
+        placeholder="Email or phone number"
+        minlength="10"
+        required
+      />
+      <input
+        class="welcome-input-section__input"
+        type="password"
+        name="userPW"
+        id="password"
+        placeholder="Password"
+        minlength="10"
+        required
+      />
+      <input
+        type="submit"
+        value="Log In"
+        id="submit"
+        class="welcome-input-section__input"
+      />
+      <a href="#" class="welcome-input-section__link"
+        >Find Kokoa Account or Password</a
+      >
+    </form>
+    <script
+      src="https://kit.fontawesome.com/b4906942a3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

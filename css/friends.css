@@ -1,0 +1,105 @@
+.friends-subtitle {
+  display: flex;
+  background-color: #fafafa;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: large;
+}
+
+.friends-subtitle__icon {
+  margin: 0px 15px;
+  opacity: 0.5;
+}
+.friends-profile {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.friends-profile__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+
+.friends-profile__text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.friends-profile__midline {
+  border-bottom: var(--profile-midline);
+  margin: 10px 20px;
+}
+
+.friends-profile-mid-sub {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  opacity: 0.5;
+}
+
+.friends-profile-last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.friends-profile-last__img__ {
+  display: flex;
+  align-items: center;
+}
+.friends-profile-last__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+
+.friends-profile-last__icon__ {
+  margin-right: 20px;
+  opacity: 0.5;
+}
+
+.friends-profile-last__text {
+  font-size: 20px;
+}
+
+.friends-profile-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.friends-profile-footer-icon__message,
+.friends-profile-footer-icon__ellipsis {
+  position: relative;
+}
+.friends-profile-footer-icon__num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: -25px;
+  left: 18px;
+}
+
+.friends-profile-footer-icon__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -18px;
+  left: 25px;
+}
+
+.friends-profile-list li {
+  margin-bottom: 20px;
+}

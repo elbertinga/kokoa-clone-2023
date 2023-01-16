@@ -1,0 +1,103 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.welcome-input-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.welcome-input-header__column {
+  display: flex;
+}
+
+.welcome-input-header__column__first {
+  width: 33%;
+}
+
+.welcome-input-header__column__second {
+  font-weight: bold;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-input-header__column__last {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.welcome-input-main {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 90px;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-input-main__title {
+  font-size: x-large;
+  font-weight: 450;
+}
+.welcome-input-main__sub {
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.welcome-input-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-input-section__input {
+  width: 545px;
+  height: 65px;
+  margin: 0px 0px 10px 0px;
+}
+
+#email,
+#password {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  font-size: large;
+}
+
+input {
+  outline: none;
+}
+
+#email:hover,
+#password:hover {
+  border-bottom: 2px solid rgb(102, 102, 41);
+}
+
+#email:focus-within,
+#password:focus-within {
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+#submit {
+  padding: 20px 200px;
+  background-color: #f6ca95;
+  border: none;
+  border-radius: 15px;
+  font-size: large;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#submit:hover {
+  background-color: orange;
+}
+
+.welcome-input-section__link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}

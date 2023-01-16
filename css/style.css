@@ -1,0 +1,26 @@
+/* body */
+@import "reset.css";
+@import "welcome.css";
+@import "welcome-input.css";
+@import "friends.css";
+@import "chats.css";
+@import "find.css";
+@import "more.css";
+/* variables */
+@import "variables.css";
+
+/* component */
+@import "header.css";
+@import "footer.css";
+
+/* animation */
+@import "animation.css";
+
+html {
+  background-color: #e7e9eb;
+}
+body {
+  width: 600px;
+  height: 700px;
+  background-color: #f0f0f0;
+}
