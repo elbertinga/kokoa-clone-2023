@@ -15,6 +15,7 @@
 
 /* animation */
 @import "animation.css";
+@import "no-mobile.css";
 
 html {
   background-color: #e7e9eb;
