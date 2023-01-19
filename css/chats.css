@@ -39,3 +39,8 @@
 .chats-profile-list li {
   margin-bottom: 20px;
 }
+
+.chats-profile-list a {
+  text-decoration: none;
+  color: black;
+}

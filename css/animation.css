@@ -156,9 +156,9 @@
 
 #splash-screen {
   background-color: #fae100;
-  z-index: 1;
+  z-index: 98;
   position: absolute;
-  height: 750px;
+  height: 780px;
   width: 600px;
   display: flex;
   justify-content: center;

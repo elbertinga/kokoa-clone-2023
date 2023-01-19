@@ -6,6 +6,11 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;
+  width: 600px;
+  position: fixed;
+  top: 10px;
+  z-index: 97;
+  box-sizing: border-box;
 }
 
 .welcome-input-header__column {
